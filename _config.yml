@@ -1,0 +1,23 @@
+# Site
+title: Lina Lopes
+subtitle: dados de saúde
+
+# URL
+url: http://wear-us.site
+baseurl: /
+permalink: :title/
+include: ['_pages']
+
+# Build settings
+markdown: kramdown
+port: 4000
+future: true
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
